@@ -1,0 +1,126 @@
+@font-face{
+	font-family: Marseline;
+	src:url(../fonts/Marseline.ttf);
+
+}
+h1{
+	font-family: fantasy;
+	color: #2F4F4F;
+	font-size: 100px;
+}
+header{
+	background-color: #A9A9A9; 
+	padding: 5px;/*es para asignar mas grande el color azul*/
+	font-size: 25px;
+	font-family: Telescope;
+	text-align: center;
+}
+#lista1{/*se pone "#" cuando es un id. y cuando es una clase es un "."*/
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+
+
+}
+#lista2{
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+li a {
+
+	float: left; /*forma de orientar*/
+	padding: 16px 50px;
+	color: 	#800000;
+	font-size: 29px;
+	display: block;
+text-align: center;
+text-decoration: none;/*quita las lienas de las secciones*/
+font-family: Marseline;
+
+
+}
+aside{
+	float: right;
+	max-width: 25%;/*tomara el maximmo de la pantalla como 25 % de la pantalla*/
+	padding-right: 20px;
+	padding-top: 20px;
+	font-family: "Telescope";
+	color: #BC8F8F;
+	text-align: center;
+	font-size: 20px;
+
+}
+section{
+	float: left; /* te manda el cuadro a donde le pongas*/
+	max-width: 68%; 
+	font-family: "Arial";
+	font-size: 20px;
+	color: #6C5B7B;
+	text-align: justify;
+	padding: 5px;
+	padding-left: 40px;
+	}
+	}
+.centericon{
+	padding-right: 100px;
+
+}
+figure{
+	display: inline-block;
+	margin: 20px;
+}
+figure img{
+	vertical-align: top;
+}
+figure figcaption{
+border: 1px dotted blue;
+text-align: center;
+}
+#gal{
+	clear: both;
+	text-align: center;
+}
+.zoom:hover{ /*es para hacer grande la imagen*/
+justify-content: center;
+transform: scale(1.5);
+}
+footer{
+	clear: both;
+	background-color: #7FFFD4;
+	padding:20px;
+	text-align: center;
+
+}
+.holu{
+	float: left;
+	margin: 10px;
+	
+}
+.nose{
+	margin-top: 300px;
+}
+.tamora{
+	background-color: #FFEBCD;
+}
+.motaro{
+	background-color: #B0C4DE;
+}
+.imgProx{
+	float: left;
+	padding-left: 40px;
+	padding-right: 20px;
+}
+.lanz{
+	background-color: #E6E6FA;
+}
+.temi{
+	float: left;
+	padding-left: 40px;
+	padding-right: 40px;
+}
+.bt{
+	background-color:#F5F5DC;
+}
